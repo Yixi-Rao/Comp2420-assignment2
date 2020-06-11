@@ -1,0 +1,96 @@
+                     ==============================
+                       COMP2420, Semester 1, 2020
+                         Assignment 2 Mark Sheet
+                     ==============================
+
+=======================================================
+  Uni Id  | Lab Group  | Tutor(s)
+=======================================================
+ u6826541    vl-fri17-20a Asiri Wijesinghe, Sukai Huang
+=======================================================
+
+Gitlab Repo : u6826541/comp2420-2020-ass2
+
+Marker: Asiri Wijesinghe
+
+Marks
+=====
+
+========================================
+ Q1 Probing Products
+   Q1.1                       :    1/1
+   Q1.2                       :    10/10
+   Q1.3.1                     :    5/5
+   Q1.3.2                     :    3/4
+   Q1.4                       :    5/5
+
+ Q2 Eager for Ethics
+   Q2.1                       :    3/4
+   Q2.2                       :    2/3
+   Q2.3                       :    3/3
+
+ Q3 Serious SQL
+   Q3.1                       :    2/2
+   Q3.2                       :    2/2
+   Q3.3                       :    2/2
+   Q3.4                       :    2/3
+   Q3.5                       :    3/3
+   Q3.6                       :    4/4
+   Q3.7                       :    4/4
+
+ Q4 Dubious Databases         :    19/25
+
+ Q5 Shocking Security
+   Q5.1                       :    10/16
+   Q5.2                       :    2/4
+
+
+ Penalty (if any)             :    /100 
+========================================
+   Total (max 100)            :  82
+========================================
+
+
+Feedback
+========
+
+
+Q1 Probing Products
+-------------------
+1.3.2 Required was to visualize the "distributions" of CVSS2 scores for each cluster (box-plot is more appropriate).
+
+
+Q2 Eager for Ethics
+-------------------
+2.1 Provide more issues (i.e blackmailing) Mention breach of privacy act 1988.
+2.2 Not linked to the context.
+
+
+Q3 Serious SQL
+--------------
+3.4 Required was to show MIN(order_date) and MAX(order_date).
+
+
+Q4 Dubious Databases 
+--------------------
+ER diagram
+---------------
+Some of the primary keys and foreign keys were wrong.
+	- Event: Event ID (Primary key), Title, Year, Location, Attendance
+    - Wrestler: Wrestler ID (Primary key), Stage Name, Real Name, Gender
+    - Match: Match ID (Primary key), Title, Winner ID, Duration, Event ID (Foreign Key)
+    - Participants: Match ID (Foreign Key), Wrestler ID (Foreign Key), Duration, Eliminations
+
+SQL Implementation
+--------------------
+Your primary keys and foreign keys were not appropriate.
+Some constraints such as NOT NULL were not stated in SQL statements (while creating the tables).
+Some of your columns data types were not correct.
+
+
+Q5 Shocking Security
+--------------------
+5.1 You have not provided practical examples and argues their security.
+Lack of explanation of the confidentiality, non-predudible and efficient aspects of the solution.
+
+5.2 Lack of explanation and examples of a new cryptographic algorithm.
